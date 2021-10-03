@@ -33,7 +33,10 @@ align-items: center;
 padding: 30px;
 display: block;
 }
-/*circles8*/
+nav>ul>li>a:hover{
+    color: blueviolet;
+}
+/*circles*/
 
 .eclipse{    
     border: 1px;
@@ -86,17 +89,33 @@ display: block;
     top: -1600px;
     text-align: center;
     height: 25em;
-    width: 25em;
-    border-radius: none;
+    width: 25em;    
     margin-top: 10em; 
     margin-left: 5em;
 }
 .header-text>h1{
     padding-bottom: 30px;
+    color: green;
+}
+
+.header-text>h1>span{
+    color: rgb(202, 179, 50);
 }
 .header-text>h2{
     padding-bottom: 20px;
 }
 .header-text>p{
     padding-bottom: 40px;
+}
+.submit{
+background-color: green;
+color: white;
+font-size: 15px;
+padding: 14px;
+border-radius: 26px;
+text-align: center;
+}
+.submit:hover{
+    background-color: yellow;
+    color: blue;
 }
