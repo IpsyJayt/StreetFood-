@@ -229,9 +229,15 @@ text-align: center;
     text-align: center;
     background-color: #ffd77c;
     min-height: 350px;
+    margin-bottom: 15px;
 }
-.contacts>h4{
+.contacts>h3{
     padding-bottom: 35px;
+    
+}
+
+.contacts>h3>span{
+    color: green;
 }
 .email-placeholder{
     border: 2px black solid;
