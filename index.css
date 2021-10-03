@@ -261,3 +261,11 @@ text-align: center;
     background-color: darkblue;
     color: black;
 }
+/* footer*/
+.footholder{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C9ECB5;
+    min-height: 200px;
+    padding-top: 30px;
+}
