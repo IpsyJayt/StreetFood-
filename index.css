@@ -1,0 +1,83 @@
+/* Header */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: grey;
+    height: 480px;
+    position: relative;
+    width: 100%;
+    padding: 0 25px 0 25px;
+}
+
+/* Nav Styling */
+
+nav{
+    margin: auto;
+    position: relative;
+    width: 1100px;
+}
+nav>ul{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+nav>ul>li{
+    display: inline-block;
+    float: none;
+}
+nav>ul>li>a{
+color: rgb(0,0,0);
+align-items: center;
+padding: 30px;
+display: block;
+}
+/*circles8*/
+
+.eclipse{    
+    border: 1px;
+    border-radius: 0 0 170% 180%;
+    height: 960px;
+    width: 960px;
+    left: 550px;
+    top: -700px;
+    background-color: #649549;
+    opacity: 0.5;
+    position: relative;
+}
+.crescent{
+    height: 500px;
+    width: 450px;
+    left: 750px;
+    top: -950px;
+    border-top: 3px dashed green;
+    border-radius: 70%;
+    position: relative;
+    opacity: 0.5;
+}
+.img1{
+    bottom: -60px;
+    left: -30px;
+    position: relative;
+}
+.img2{
+    position: relative;
+    top: -120px;
+    left:100px;
+}
+.img2-1{
+    top: -50px;
+    left: 150px;
+    position: relative;
+}
+.img3{
+    position: relative;
+    top: -375px;
+    left: 250px;
+}
+.img5-1{
+    top: -375px;
+    left: 350px;
+    position: relative;
+}
