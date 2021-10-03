@@ -269,3 +269,11 @@ text-align: center;
     min-height: 200px;
     padding-top: 30px;
 }
+#mobile{
+    font-size: large;
+    font-weight: bold
+}
+#day{
+    font-size: large;
+    font-weight: bold;
+}
