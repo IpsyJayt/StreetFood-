@@ -1,3 +1,10 @@
+
+
+body{
+    background-color: rgb(255,255,255);
+    
+}
+
 /* Header */
 *{
     margin: 0;
@@ -99,7 +106,7 @@ nav>ul>li>a:hover{
 }
 
 .header-text>h1>span{
-    color: rgb(202, 179, 50);
+    color: #eaab1b;
 }
 .header-text>h2{
     padding-bottom: 20px;
@@ -108,7 +115,7 @@ nav>ul>li>a:hover{
     padding-bottom: 40px;
 }
 .submit{
-background-color: green;
+background-color: #6CB840;
 color: white;
 font-size: 15px;
 padding: 14px;
@@ -116,6 +123,28 @@ border-radius: 26px;
 text-align: center;
 }
 .submit:hover{
-    background-color: yellow;
+    background-color: rgb(129, 129, 46);
     color: blue;
+}
+
+/* styling the eat together section,image and text*/
+.eat-together{
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    justify-content: center;
+}
+.eat-together>img{
+    width: 50%;
+}
+.eat-text{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Poppins';
+}
+.eat-text>h2{
+    padding-bottom: 15px;    
+    color: #eaab1b;
 }
