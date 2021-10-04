@@ -15,7 +15,7 @@ header{
     background-color: grey;
     height: 480px;
     position: relative;
-    width: 100%;
+    width: 1100px;
     padding: 0 25px 0 25px;
 }
 
@@ -48,11 +48,11 @@ nav>ul>li>a:hover{
 
 .eclipse{    
     border: 1px;
-    border-radius: 0 0 170% 180%;
+    border-radius: 0 0 120% 120%;
     height: 960px;
     width: 960px;
-    left: 550px;
-    top: -700px;
+    left: 200px;
+    top: -780px;
     background-color: #649549;
     opacity: 0.5;
     position: relative;
@@ -60,8 +60,8 @@ nav>ul>li>a:hover{
 .crescent{
     height: 500px;
     width: 450px;
-    left: 750px;
-    top: -950px;
+    left: 460px;
+    top: -980px;
     border-top: 3px dashed green;
     border-radius: 70%;
     position: relative;
@@ -153,7 +153,7 @@ text-align: center;
 /* explore menu*/
 
 .explore{
-    width: 1530px;
+    width: 90%;
 }
 
 .burger{
@@ -191,6 +191,10 @@ text-align: center;
     display: flex;
     
 }
+#street-deals{
+    width: 90%;
+}
+
 #hotdeals{
     text-align: center;
     
@@ -276,4 +280,7 @@ text-align: center;
 #day{
     font-size: large;
     font-weight: bold;
+}
+html{
+    box-sizing: border-box;
 }
